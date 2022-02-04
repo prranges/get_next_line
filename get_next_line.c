@@ -50,7 +50,7 @@ void	new_line(char *buf, char **line)
 	free(temp);
 }
 
-int	ret_check (char *mem, size_t r)
+int	ret_check(char *mem, size_t r)
 {
 	if (mem || r)
 		return (1);
