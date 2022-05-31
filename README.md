@@ -14,6 +14,7 @@ This project also introduces the concept of static variables in C programming.
 
 ```shell
 $ git clone https://github.com/prranges/get_next_line.git
+$ cd get_next_line
 $ gcc -D BUFFER_SIZE=32 -o get_next_line main.c get_next_line.c get_next_line_utils.c
 $ ./get_next_line some_text_file.txt
 ```
